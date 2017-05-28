@@ -1,0 +1,29 @@
+{
+  "name": "midi-splitter",
+  "version": "1.0.0",
+  "description": "A midi splitter component",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --watch"
+  },
+  "keywords": [
+    "matrix",
+    "grid",
+    "midi",
+    "music"
+  ],
+  "author": "Nick Roberts",
+  "license": "ISC",
+  "peerDependencies": {
+    "react-dom": "^15.0.0",
+    "react": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.5.1"
+  }
+}
